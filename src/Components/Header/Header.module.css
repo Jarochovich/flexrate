@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #111111;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+select {
+    border: 1px solid #1e3cd4;
+    background-color: #1e3cd4;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+select option {
+    background-color: #0000008c;
+    cursor: pointer;
+}
