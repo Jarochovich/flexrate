@@ -5,7 +5,7 @@ import classes from "./Layout.module.css";
 
 function Layout(props:any) {
     return (
-        <div className={classes.wpapper}>
+        <div className={classes.wrapper}>
           <Header />
             <main className={classes.main}>
                 <Outlet />

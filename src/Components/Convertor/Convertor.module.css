@@ -1,0 +1,25 @@
+.wrapper {
+    border: 1px solid #e0e1e5;
+    border-radius: 15px;
+    background-color: #fafbfc;
+    padding: 30px;
+    max-width: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 650px;
+
+}
+
+.changeCurrency img {
+    width: 24px;
+}
+
+.convertFrom, .convertTo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

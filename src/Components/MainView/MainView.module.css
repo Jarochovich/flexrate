@@ -1,6 +1,9 @@
+
 .main {
-    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.h {
-    height: 100px;
+.mainText {
+    color: rgb(85, 85, 85);
 }
