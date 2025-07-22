@@ -5,7 +5,6 @@ function MainView(props:any) {
     return (
         <div className={classes.main}>
             <h4 className={classes.mainText}>FLEXRATE КОНВЕРТОР ВАЛЮТ</h4>
-            <h1>1 Доллар США в белорусские рубли </h1>
 
             <Convertor />
             

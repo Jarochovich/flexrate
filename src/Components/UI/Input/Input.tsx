@@ -1,6 +1,6 @@
 import classes from './Input.module.css';
 
-function Input({children, ...props} : any) {
+function Input({currency, children, ...props} : any) {
     return (
         <input className={classes.input} {...props}>{children}</input>
     );
