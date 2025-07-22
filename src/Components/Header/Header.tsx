@@ -7,12 +7,6 @@ function Header(props:any) {
             <div className={classes.logo}>
                 <img src={logo} alt="logo" />
             </div>
-            <div className={classes.menu}>
-                <select name="languages">
-                    <option selected value="RU">Русский</option>
-                    <option value="EN">English</option>
-                </select>
-            </div>
         </header>
     );
 }

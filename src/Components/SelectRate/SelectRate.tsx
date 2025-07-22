@@ -1,7 +1,7 @@
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent} from "react";
 
 function SelectRate(props:any) {
-    const rates = ['USD', 'RUB', 'EUR', 'AUD', 'JPY'];
+    const rates = ['USD', 'RUB', 'EUR', 'PLN', 'GBP', 'AUD', 'JPY'];
 
     const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
         props.onChangeCurrency(event.target.value);
