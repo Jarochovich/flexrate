@@ -6,7 +6,7 @@ import MainView from './Components/MainView/MainView';
 function App() {
   return (
     <div className={classes.App}>
-      <BrowserRouter>
+      <BrowserRouter basename='flexrate'>
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<MainView />} />
