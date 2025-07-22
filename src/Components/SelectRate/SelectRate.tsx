@@ -1,12 +1,18 @@
+import { ChangeEvent, useState } from "react";
 
 function SelectRate(props:any) {
-
     const rates = ['USD', 'BYN', 'RUB', 'EUR'];
 
+    const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
+        props.onChangeCurrency(event.target.value);
+        console.log(event.target.value);
+    }
+
     return (
-         <select>
+         <select value={props.currency}
+                 onChange={handleChange}>
             {
-               rates.map((item, index) => <option key={index}>{item}</option>)
+               rates.map((item, index) => <option key={index} value={item}>{item}</option>)
             }
         </select>
     );
